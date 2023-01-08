@@ -1,0 +1,114 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0; 
+}
+
+html {
+    font-size: 62,5%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.all-page {
+    height: 90vh;
+    background-image: url("/img/netflix-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+#caixa-topo {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(229,9,20,1.0);
+    font-size: 0.9rem;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+
+#caixa-topo h3{
+    align-self: center;
+}
+
+#texto-topo {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#saiba-mais {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgba(0,113,235,1);
+    align-self: center;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+    gap: 70%;
+}
+
+#imagem-topo {
+    height: 100%
+}
+
+#logo-netflix {
+    width: 140px;
+    height: 35px;
+}
+
+#idiomas {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#datalist {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1rem;
+}
+
+#datalist option {
+    background-color: rgb(78, 77, 77);
+}
+
+#login-topo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(229,9,20,1.0);
+    font-size: 1rem;
+    border-radius: 10%;
+    padding: 10px 18px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-center {
+    color: #fff;
+    text-align: center;
+}
