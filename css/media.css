@@ -1,0 +1,56 @@
+@media screen and (max-width: 760px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #caixa-topo {
+        padding: 0 auto;
+    }
+
+    #texto-topo {
+        font-size: 1rem;
+    }
+
+    .all-page {
+        background-image: url("/img/netflix-background.jpg");
+        background-repeat: no-repeat;
+        background-size: 250vh; 
+        
+    }
+
+    .navigation-bar {
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+        padding: 60px 20px;
+    }
+
+    #logo-netflix {
+        width: 100px;
+        height: 30px;
+    }
+
+    #idiomas {
+        gap: 10px;
+    }
+
+    #datalist {
+        padding: 3px;
+    }
+
+    #login-topo {
+        padding: 3px;
+    }
+
+    #email-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email-center-id {
+        padding: 20px 80px;
+    }
+
+
+}

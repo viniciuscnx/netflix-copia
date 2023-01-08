@@ -64,7 +64,7 @@ span {
 }
 
 #imagem-topo {
-    height: 100%
+    height: 100%;
 }
 
 #logo-netflix {
@@ -111,4 +111,39 @@ span {
 #text-center {
     color: #fff;
     text-align: center;
+    margin-top: 100px;
+}
+
+#text-center h1 {
+    font-size: 3rem;
+}
+
+#text-center h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#text-center h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#email-center {
+    display: flex;
+    gap: 2px;
+}
+
+#email-center-id {
+    padding: 20px;
+    padding-right: 250px;
+    font-size: 1rem;
+}
+
+#submit-button {
+    color: #fff;
+    font-weight: 500;
+    background-color: rgba(229,9,20,1.0);
+    padding: 15px 25px;
+    font-size: 1.5rem;
 }
